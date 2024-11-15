@@ -43,6 +43,7 @@ public class main{
         //inverted index
         LinkedList<Word> invertedIndex = new LinkedList<Word>(); 
 
+        
          if(!index.empty()){
             index.findFirst();
         boolean found = false;
