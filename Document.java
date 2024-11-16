@@ -6,7 +6,7 @@ public class Document{
      this.id =id;
      this.words=words;
      }
-    public find(String word){
+    public boolean find(String word){
    if(words.exist(word))
    return true;
    return false;
